@@ -1,2 +1,2 @@
 # modops-waw-modtools-v1
-An official ModOps platform Call of Duty: World at War modtools base
+The official ModOps Call of Duty: World at War modtools
