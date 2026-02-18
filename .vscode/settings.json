@@ -1,0 +1,61 @@
+{
+  // Indentation
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+
+  // Format on save
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table",
+
+  // Language-specific formatters
+  "[vue]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-js-profile-table"
+  },
+
+  // Bracket & guide helpers
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.linkedEditing": true,
+
+  // Trim junk on save
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // File associations
+  "files.associations": {
+    "*.toml": "toml"
+  },
+  "emmet.includeLanguages": {
+    "vue": "html"
+  },
+
+  // Hide noise
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.wrangler": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.wrangler": true
+  }
+}
